@@ -8,12 +8,12 @@
 
 **The AI sends this now:**
 
-> Hi [Guest name], I'm so sorry — no hot water at 3am is genuinely awful, especially with guests arriving. I'm escalating this to our caretaker right now and someone will be in touch within the next 15 minutes. We will make this right. If you don't hear from us by 3:20am, please call [caretaker number] directly.
+>Hello [Guest name], I am truly sorry that there is no hot water at 3am – that’s just terrible, especially when we have guests arriving. We’ll be contacting our caretaker immediately and somebody will contact you within the next 15 minutes. This situation will definitely be sorted out. If you do not hear back from us by 3:20am, please contact [caretaker number].
 
 **Why this wording:**  
-The first sentence validates the feeling without being sycophantic. Guests in distress need to know they've been *heard* before they'll trust any practical information. The second sentence gives a concrete action (caretaker contact) and a concrete time commitment (15 minutes), which converts a vague "we'll help" into something the guest can hold us to. Mentioning the direct number signals we're not hiding behind a bot — there's a human accountable for follow-through.
+The first line acknowledges the emotion felt by the guest without resorting to sucking up to the guest. For guests who feel bad, they have to be shown that we've heard what they've said before anything useful can be conveyed. The second line provides both an action item (contacting a caretaker) and a clear time frame (15 minutes). The line mentions a number because we are not behind a bot anymore; there is someone who will be held accountable.
 
-The refund question is not addressed yet, deliberately. Committing to a refund at 3am without a human decision-maker is dangerous; deferring it while solving the actual problem is the right order.
+The issue of the refund has been put off deliberately. It would be very risky to commit to a refund in the middle of the night without human involvement.
 
 ---
 
