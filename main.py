@@ -179,9 +179,9 @@ def compute_confidence(
     Confidence is a weighted composite of four signals:
 
     1. Query type certainty (0.40 weight)
-       Factual queries (availability, check-in info) score high because the
-       answer is deterministic from the property data sheet.
-       Complaints score low — they need human empathy and judgment.
+      Availability and check-in related questions are highly factual because the
+       answer can be determined based on the information on the property sheet.
+     Complaints are less factual since they require human judgment.
 
     2. Property context available (0.25 weight)
        If we found a matching property record we can give a grounded reply.
@@ -301,9 +301,7 @@ Draft a reply to {first_name} addressing their query using the property context 
         response = await client.post(CLAUDE_API_URL, json=payload, headers=headers)
 
     if response.status_code != 200:
-        print("CLAUDE ERROR RESPONSE:")
-        print(response.text)
-
+        logger.error("Claude API error %s: %s", response.status_code, response.text)
         raise HTTPException(
             status_code=502,
             detail=response.text,
