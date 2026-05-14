@@ -1,7 +1,7 @@
 """
 Test script for the Nistula webhook.
-Run the server first: uvicorn src.main:app --reload
-Then in another terminal: python src/test_webhook.py
+Run the server first: uvicorn main:app --reload
+Then in another terminal: python test_webhook.py
 """
 
 import httpx
