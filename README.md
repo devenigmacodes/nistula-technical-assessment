@@ -128,10 +128,11 @@ schema.sql contains:
 * Incident escalation support
 ##  Project Structure
 ```
-├── main.py
-├── test_webhook.py
-├── schema.sql
-├── thinking.md
+nistula-technical-assessment/
+├── main.py               # FastAPI app — webhook, classifier, confidence scorer
+├── test_webhook.py       # 5 test cases
+├── schema.sql            # Part 2 — PostgreSQL schema with design rationale
+├── thinking.md           # Part 3 — written answers
 ├── requirements.txt
 ├── .env.example
 └── README.md
