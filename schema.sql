@@ -128,7 +128,7 @@ CREATE TABLE messages (
 
     -- AI analysis — populated on inbound messages only
     query_type          query_type,
-    ai_confidence_score NUMERIC(4, 4)
+    ai_confidence_score NUMERIC(5, 4)
                             CHECK (ai_confidence_score BETWEEN 0 AND 1),
     ai_action_taken     action_taken,
 
